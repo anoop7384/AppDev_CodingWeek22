@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <View
+        android:layout_width="130dp"
+        android:background="@color/thin"
+        android:layout_gravity="center"
+        android:layout_height="5dp"
+
+
+
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Are you sure you want to delete this diary ?"
+
+
+        android:textColor="@color/black"
+        android:textSize="18sp"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/dialogYes"
+        android:gravity="center"
+        android:text="Yes"
+        android:textColor="@color/black"
+        android:background="@color/orange"
+
+        android:textSize="18sp"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:id="@+id/dialogNo"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+
+        android:gravity="center"
+        android:background="@color/thin"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+
+
+        />
+
+
+</LinearLayout>

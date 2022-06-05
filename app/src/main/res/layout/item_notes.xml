@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/orangelt"
+
+        app:cardCornerRadius="15dp" >
+
+
+        <TextView
+            android:id="@+id/notesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+
+
+
+            android:fontFamily="sans-serif-medium"
+            android:text="3 June 2022"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/notesSubtitle"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:text="Monday"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/notesDiary"
+            android:textColor="@color/grey"
+            android:textSize="12sp"
+            android:text="Hi everyone"
+            android:layout_marginStart="20dp"
+
+            />
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

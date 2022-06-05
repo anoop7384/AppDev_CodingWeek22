@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cwdiary</string>
+    <string name="by_anoop">By Anoop</string>
+    <string name="mydiary">myDiary</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sfdkjfkbhsfbsd">sfdkjfkbhsfbsd</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="how_was_your_day">How was your day ?</string>
+    <string name="title2">Title</string>
+    <string name="notes">Notes</string>
+    <string name="subtitle">Subtitle</string>
+</resources>
